@@ -66,18 +66,10 @@ function runalgo()
     this.classList.add("butt_selected");
     switch(this.innerHTML)
     {
-        // case "Bubble":Bubble();
-        //                 break;
-        // case "Selection":Selection_sort();
-        //                 break;
-        case "Insertion":Insertion();
-                        break;
+        case "Bubble":Bubble();
+                       break;
         case "Merge":Merge();
                         break;
-        // case "Quick":Quick();
-        //                 break;
-        // case "Heap":Heap();
-        //                 break;
     }
 }
 
